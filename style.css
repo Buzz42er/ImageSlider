@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Koulen&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 224, 35);
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 5px black;
+}
+
+button:active {
+    background-color: rgba(128, 128, 128, 0.267);
+    transform: scale(1.05);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.dimensions {
+    width: 598px;
+    height: 337px;
+    
+}
