@@ -37,5 +37,6 @@ button:active {
 .dimensions {
     width: 598px;
     height: 337px;
-    
+    display: flex;
+    justify-content: center;
 }
